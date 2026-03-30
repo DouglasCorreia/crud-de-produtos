@@ -95,7 +95,7 @@ function App() {
     {
       title: 'Ações',
       key: 'actions',
-      render: (unusedParam: null, product: Product) => (
+      render: (_unusedParam: null, product: Product) => (
         <>
           <Space size="small">
             <Button type="primary" onClick={() => handleEdit(product)}>
