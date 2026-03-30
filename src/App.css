@@ -1,0 +1,10 @@
+.create-button {
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+@media(min-width: 768px) {
+  .create-button {
+    justify-content: flex-end;
+  }
+}
